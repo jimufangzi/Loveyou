@@ -18,7 +18,7 @@
             background: #79a8ae;
             color: #CFEBE4;
             font-size: 18px;
-            line-height: 2;
+            line-height: 1.5;
             letter-spacing: 1.2px;
             margin: 0;
         }
@@ -73,7 +73,7 @@
         }
         .text {
             position: fixed;
-            bottom: 80px;
+            bottom: 45px;
             text-align: center;
             width: 100%;
             font-weight: bold;
@@ -96,11 +96,14 @@
 <audio autoplay="autoplay" loop="loop">
     <source src="music/Can You Feel The Love Tonight.mp3" type="audio/mpeg">
 </audio>
-<canvas class="canvas" width="1820" height="905"></canvas>
+<canvas class="canvas" width="1820" height="900"></canvas>
 <p class="text" style="color: #E0FFFF;font-size: 45px;">
-	<font face="font01">Mr.Wen and Miss.Fan 已经在一起了
-    <br/>
-    <span id="span_dt_dt"></span></font>
+	<font face="font01" color="#BBFFFF">Mr.Wen</font>
+	<font face="font01"> and </font>
+	<font face="font01" color="#FFC0CB">Miss.Fan</font>
+	<font face="font01">已经在一起了</font>
+	<br/>
+    <font face="font01"><span id="span_dt_dt"></span></font>
 </p>
 <script language="javascript">
     function show_date_time() {
