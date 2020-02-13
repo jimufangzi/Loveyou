@@ -91,17 +91,17 @@
 
 <body>
 <div class="cs">
-    <img src="picture/yuan.jpg" id="logo">
+    <img src="picture/we.jpg" id="logo">
 </div>
 <audio autoplay="autoplay" loop="loop">
     <source src="music/last_dance.mp3" type="audio/mpeg">
 </audio>
 <canvas class="canvas" width="1820" height="900"></canvas>
-<p class="text" style="color: #E0FFFF;font-size: 60px;">
-	<font face="font01" color="#BBFFFF">Yuan</font>
-	<font face="font01"> , </font>
-	<font face="font01" color="#FFC0CB">I loved you.</font>
-	<font face="font01">Thanks everything you gave me.</font>
+<p class="text" style="color: #E0FFFF;font-size: 45px;">
+	<font face="font01" color="#BBFFFF">Mr.Wen</font>
+	<font face="font01"> and </font>
+	<font face="font01" color="#FFC0CB">Miss.Fan</font>
+	<font face="font01">已经在一起了</font>
 	<br/>
     <font face="font01"><span id="span_dt_dt"></span></font>
 </p>
@@ -109,9 +109,7 @@
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
         BirthDay = new Date("12/30/2017 23:59:00");//这个日期是可以修改的
-        //EndDay = new Date("2/12/2020 02:43:00");
-        //today = new Date();
-        today = new Date("2/12/2020 02:43:00");
+        today = new Date();
         timeold = (today.getTime() - BirthDay.getTime());
         sectimeold = timeold / 1000
         secondsold = Math.floor(sectimeold);
