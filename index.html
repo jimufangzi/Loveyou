@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Mr.Wen and Miss.Fan</title>
+    <title>Mr.Wen and Miss.Huang</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0, user-scalable=0">
     <!--<meta itemprop="image" content="./images/fenxiang.png" />-->
 	<style>
@@ -91,14 +91,14 @@
 
 <body>
 <div class="cs">
-    <img src="picture/yuan.jpg" id="logo">
+    <img src="picture/jingwen.jpg" id="logo">
 </div>
 <audio autoplay="autoplay" loop="loop">
-    <source src="music/last_dance.mp3" type="audio/mpeg">
+    <source src="music/Can You Feel The Love Tonight.mp3" type="audio/mpeg">
 </audio>
 <canvas class="canvas" width="1820" height="900"></canvas>
 <p class="text" style="color: #E0FFFF;font-size: 60px;">
-	<font face="font01" color="#BBFFFF">Yuan</font>
+	<font face="font01" color="#BBFFFF">JingWen</font>
 	<font face="font01"> , </font>
 	<font face="font01" color="#FFC0CB">I loved you.</font>
 	<font face="font01">Thanks everything you gave me.</font>
@@ -108,10 +108,10 @@
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-        BirthDay = new Date("12/30/2017 23:59:00");//这个日期是可以修改的
+        BirthDay = new Date("10/06/2022 03:00:00");//这个日期是可以修改的
         //EndDay = new Date("2/12/2020 02:43:00");
-        //today = new Date();
-        today = new Date("2/12/2020 02:43:00");
+        today = new Date();
+        //today = new Date("2/12/2020 02:43:00");
         timeold = (today.getTime() - BirthDay.getTime());
         sectimeold = timeold / 1000
         secondsold = Math.floor(sectimeold);
@@ -133,7 +133,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
 			//想说的话
-            S.UI.simulate("Mr.Wen|Love|Miss.Fan|Nice|to|Meet|You|#countdown 3|#time");
+            S.UI.simulate("Mr.Wen|Love|Miss.Huang|Nice|to|Meet|You|#countdown 3|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
